@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+<body>
+    <div>
+        <label for="sueldo">Sueldo:</label>
+        <input type="text" id="sueldo">
+        <label for="categoria">Categoria</label>
+            <select name="categoria" id="categoria">
+                <option value="0" hidden></option>
+                <option value="1">1 (15%)</option>
+                <option value="2">2 (10%)</option>
+                <option value="3">3 (6%)</option>
+                <option value="4">4 (3%)</option>
+            </select>
+            <button id="calcular">Calcular nuevo sueldo</button>
+    </div>
+    <div id="out"></div>
+    <script src="./ejercicio10dom.js"></script>
+</body>
+</html>

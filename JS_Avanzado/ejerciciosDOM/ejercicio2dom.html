@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div>
+        <label for="numero1">Número 1</label>
+        <input type="text" id="numero1">
+        <label for="fumero2">Número 2</label>
+        <input type="text" id="numero2">
+        <label for="operacion">Operación</label>
+            <select name="operacion" id="operacion">
+                <option value="0" hidden></option>
+                <option value="1">Sumar</option>
+                <option value="2">Restar</option>
+                <option value="3">Multiplicar</option>
+                <option value="4">Dividir</option>
+                <option value="5">Resto de la división</option>
+            </select>
+            <button id="calcular">Calcular</button>
+    </div>
+    <div id="out"></div>
+    <script src="./ejercicio2dom.js"></script>
+</body>
+</html>
